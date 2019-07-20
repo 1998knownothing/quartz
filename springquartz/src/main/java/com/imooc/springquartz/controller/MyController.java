@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class MyController {
-
+//haha
     @RequestMapping(produces = "application/json;charset=UTF-8",value="login",method = {RequestMethod.GET})
     @ResponseBody
     private  String hello(
